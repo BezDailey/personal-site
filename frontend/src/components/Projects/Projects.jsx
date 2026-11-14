@@ -12,44 +12,6 @@ import Project from "../../components/Project/Project";
 const Projects = () => {
   const projects = [
     {
-      name: "Obsidian Projects Board",
-      year: "2026",
-      description: "Custom Obsidian plugin that renders kanban and roadmap views from a local SQLite database. Reads directly from the same database as my Projects CLI, giving visual project management inside the vault with no API or sync layer.",
-      skills: [
-        "TypeScript",
-        "SQLite",
-        "Plugin Development",
-      ],
-      github: "https://github.com/BezDailey/obsidian-projects-board",
-    },
-    {
-      name: "Second Brain",
-      year: "2026",
-      description: "RAG-powered knowledge system over my Obsidian vault. Ingests notes to make concepts, daily logs, and learning plans searchable and conversational. Includes an annotation evaluation pipeline that measures retrieval precision and answer quality.",
-      skills: [
-        "Python",
-        "FastAPI",
-        "LlamaIndex",
-        "ChromaDB",
-        "React",
-      ],
-      github: "https://github.com/BezDailey/SecondBrain",
-    },
-    {
-      name: "Debt Tracker",
-      year: "2026",
-      description: "Full-stack personal finance app that models debt payoff strategies (snowball & avalanche), projects interest, and forecasts payoff dates across accounts. Exposes both a REST API and a CLI, backed by a type-safe Prisma + SQLite data layer with amortization logic built from scratch.",
-      skills: [
-        "Node.js",
-        "Express",
-        "React",
-        "Vite",
-        "Prisma",
-        "SQLite",
-      ],
-      github: "https://github.com/BezDailey/Debt-Tracker",
-    },
-    {
       name: "Kingdom Call Global",
       year: "2025",
       description: "Production website for a ministry organization. Built with React 19 and Vite, featuring a token-based design system, React Router for multi-page navigation, and a photo gallery with keyboard navigation.",

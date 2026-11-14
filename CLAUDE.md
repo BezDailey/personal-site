@@ -38,7 +38,7 @@ Experience entries live as a hardcoded array in `Experience.jsx`; projects live 
 **Styling:** CSS Modules (`.module.css`) colocated with each component. No global CSS framework. Note: tag selectors (e.g. `button`, `h1`) in CSS Modules are NOT scoped — only class and ID selectors get hashed. The global `button { all: unset }` reset and the global `button:focus-visible` / `a:focus-visible` outline styles live in `Header.module.css` and apply sitewide. A `button:hover { text-decoration: underline }` rule also applies globally — override with `text-decoration: none` on specific hover selectors when unwanted.
 
 **Serving:**
-The portfolio is a static site with no API, login, admin portal, or database dependency. `serve` hosts the production build; unknown URLs return 404. The Debt Tracker listed under Projects is a separate repository, not a feature hosted here.
+The portfolio is a static site with no API, login, admin portal, or database dependency. `serve` hosts the production build; unknown URLs return 404.
 
 ---
 

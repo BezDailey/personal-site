@@ -50,7 +50,6 @@ npm test -- --watchAll=false
 - `Procfile` — Heroku web process running `npm start`
 
 Experience, Projects, and Skills are rendered from hardcoded data in their respective components.
-The Debt Tracker portfolio entry links to a separate repository; this site does not host that application.
 
 ## Deployment
 
