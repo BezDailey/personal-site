@@ -65,12 +65,10 @@ const Projects = () => {
     {
       name: "Personal Site",
       year: "2023",
-      description: "Full-stack portfolio site built from scratch — custom design system with no UI framework, an admin portal with JWT authentication, and a Node.js/PostgreSQL backend for content management.",
+      description: "Personal portfolio with a responsive two-column layout, shared navigation, and CSS Modules. Built with React and served as a static site.",
       skills: [
         "React",
-        "Node.js",
-        "PostgreSQL",
-        "JWT Auth",
+        "CSS Modules",
       ],
       github: "https://github.com/BezDailey/Personal-Site",
       website: "https://www.jabezdailey.com",

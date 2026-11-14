@@ -6,12 +6,6 @@
   --mist: #f5f3ef;
   --graphite: #6b6b7b;
 
-  /* Legacy aliases for admin pages that still reference old vars */
-  --maroon: var(--ink);
-  --red: var(--signal);
-  --beige: var(--stone);
-  --yellow: var(--mist);
-  --yellow-background: var(--stone);
 }
 
 *, *::before, *::after {
